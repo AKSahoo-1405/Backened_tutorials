@@ -4,7 +4,7 @@ const cors = require("cors");
 const path =require('path');
 
 const app = express();
-const { log } = require("console");
+
 app.use(cors());
 app.use(express.json());
 app.use(express.static('./public/assets'))
